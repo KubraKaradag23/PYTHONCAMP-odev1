@@ -1,0 +1,23 @@
+HTML
+HTML Hyper Text Markup Language kelimelerinin kısaltılması şeklinde olan metin işaretleme dilidir. Web sitelerin oluşturulmasında kullanılan bir programlama dilidir, bu dilin çalışabilmesi için chrome, firefox, safari, edge, opera gibi tarayıcılar tarafından derlenmesi gerekmektedir.HTML kullanım amacı web siteleri için görsel, yazı ve video gibi içeriklerin konumlandırılmasını sağlamaktır.
+
+HTML Locaters
+Locators(Konumlandırıcı), Selenium IDE’ye hangi web tabanlı objeler üzerinde çalışması gerektiğini söyleyen bir komuttur. Doğru elementin tanımlanması, otomasyon oluşturmanın ön koşuludur. Site üzerindeki bir elemente örneğin giriş butonuna selenium ile tıklama işlemi yaptırmak istediğimizde bu işlemi locator’lar aracılığıyla yaparız. Selenium ile geliştirmek istediğimiz test otomasyonlarında locator’ları kullanarak ilgili alanlara veri gönderebilir, tıklama işlemi yaptırabilir, var olan içeriği temizleyebiliriz.En yaygın locaterslar;
+ID
+ClassName
+Name
+TagName
+LinkText
+CssSelector
+XPath
+DOM Locator
+
+Selenium'da aksiyonlar (send_keys, click vb..)
+click --> Belirli bir alana tıklamak için kullanılır. 
+refresh --> sayfayı yenilemek için kullanılır
+Maximize_window --> web sayfasını tam ekran yapmak için kullanılır
+get --> Verilen url'ye erişmemizi sağlar.
+Pause --> Testi duraklatır
+Submit --> Bir formu göndermek için kullanılır
+find_element --> Elementin yolunu bulmak için kullanılır
+Scroll --> Aşağı ve yukarı kaydırılır
